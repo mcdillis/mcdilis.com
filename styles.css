@@ -231,6 +231,16 @@ topnav {
   overflow: hidden;
 }
 
+
+@media only screen and (max-width: 600px) {
+  /* Styles for elements when screen width is 600px or less */
+  body {
+      font-size: 14px; 
+  }
+  
+}
+
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
